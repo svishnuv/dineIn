@@ -1,0 +1,64 @@
+.mainHeader img {
+    width: 10%;
+    height: 20%;
+}
+#mainContainer {
+    margin-top: 0.5%;
+    width: 98%;
+}
+#OwnerArea {
+    display: block;
+}
+h3 {
+    font-family:'Droid Serif', serif;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+hr.line {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.Welcome img {
+    float: left;
+    width: 600px;
+    height: 500px;
+    margin-right: 3%;
+    margin-bottom: 2%;
+}
+p {
+    font-family:'Nunito', sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+}
+p::first-letter {
+    font-size: 3em;
+}
+.mainHeader {
+    background:#74D3FF;
+    box-shadow: 0px 3px 6px #888888;
+}
+body {
+    background: -webkit-gradient(radial, center center, 0, center center, 460, from(#FFF), to(#74D3FF));
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #FFF, #74D3FF);
+    /* Firefox 3.6+ */
+    background: -moz-radial-gradient(circle, #FFF, #74D3FF);
+    /* IE 10 */
+    background: -ms-radial-gradient(circle, #FFF, #74D3FF);
+}
+.mainContent {
+}
+.Seating img {
+    padding: 3px;
+    float: left;
+    width: 10em;
+    height: 10em;
+}
+.pagination {
+    float: right;
+}
